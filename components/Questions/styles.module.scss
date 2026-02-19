@@ -1,0 +1,106 @@
+.container {
+  background: transparent;
+  border-radius: 8px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 100px;
+  padding-top: 128px;
+  @media screen and (max-width: 768px) {
+    padding-inline: 30px;
+    padding-top: 80px;
+  }
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  h2 {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    @media screen and (max-width: 768px) {
+      font-size: 36px;
+    }
+  }
+}
+
+.accordion {
+  .accordionItem {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    width: 100%;
+    color: #fff;
+
+    &.active {
+      .accordionContent {
+        max-height: 100px;
+      }
+
+      h3 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        color: #8336ff;
+        @media screen and (max-width: 768px) {
+          font-size: 20px;
+        }
+      }
+
+      span {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+    background: transparent;
+    border-radius: 4px;
+
+    h3 {
+      margin: 0;
+
+      transition: color 0.3s ease;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      @media screen and (max-width: 768px) {
+        font-size: 19px;
+      }
+    }
+
+    span {
+      font-size: 24px;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .accordionContent {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 15px;
+    background: transparent;
+    border-radius: 0 0 4px 4px;
+
+    p {
+      margin: 15px 0;
+      color: #adb2b1;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  }
+}

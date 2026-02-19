@@ -1,0 +1,145 @@
+.container {
+  background-color: #141433;
+}
+
+.content {
+  border-radius: 8px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 100px;
+  @media screen and (max-width: 768px) {
+    padding-inline: 30px;
+    padding-top: 80px;
+  }
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 50px;
+  @media screen and (max-width: 768px) {
+    padding-top: 20px;
+  }
+  h2 {
+    color: #fff;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    text-decoration-line: underline;
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+    }
+  }
+}
+
+.accordion {
+  .accordionItem {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    width: 100%;
+    color: #b3b3b3;
+
+    &.active {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 15px;
+      color: #141433;
+      transition: background-color 0.3s ease;
+      .accordionContent {
+        max-height: 100px;
+      }
+
+      h3 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        color: #8436ff;
+        @media screen and (max-width: 768px) {
+          font-size: 18px;
+        }
+      }
+
+      span {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+    background: transparent;
+    border-radius: 4px;
+
+    h3 {
+      margin: 0;
+
+      transition: color 0.3s ease;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      @media screen and (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    span {
+      font-size: 20px;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .accordionContent {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 15px;
+    background: transparent;
+    border-radius: 0 0 4px 4px;
+
+    p {
+      margin: 15px 0;
+      color: #6e6e6e;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.button {
+  padding-top: 50px;
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+  }
+  button {
+    border-radius: 50px;
+    background: #8436ff;
+    padding-block: 20px;
+    padding-inline: 50px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    @media screen and (max-width: 768px) {
+      padding-block: 16px;
+      padding-inline: 50px;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+.container {
+  background: transparent;
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #141433;
+  @media screen and (max-width: 768px) {
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 100vh;
+  }
+}
+
+.content {
+  position: relative;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 100px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    padding-inline: 30px;
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 40px;
+  }
+}
+
+.leftside {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 40%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    gap: 20px;
+  }
+  h2 {
+    color: #fff;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: -0.48px;
+    @media screen and (max-width: 768px) {
+      text-align: left;
+      font-size: 32px;
+      line-height: 38px;
+    }
+    span {
+      color: #b078ff;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+      padding-left: 10px;
+      @media screen and (max-width: 768px) {
+        text-align: left;
+        font-size: 32px;
+        line-height: 38px;
+      }
+    }
+  }
+  h5 {
+    color: #adb2b1;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+    @media screen and (max-width: 768px) {
+      text-align: left;
+      font-size: 18px;
+      width: 100%;
+    }
+  }
+}
+
+.logo {
+  z-index: 40;
+  button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    padding-block: 18px;
+    padding-inline: 32px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #ed7f26 0%, #ffa400 100%);
+    color: #141433;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    img {
+      width: 8px;
+    }
+    @media screen and (max-width: 768px) {
+      padding-inline: 24px;
+      font-size: 14px;
+      padding-block: 14px;
+    }
+  }
+}
+
+.rightside {
+  position: absolute;
+  right: 0;
+  width: 600px;
+  height: 600px;
+
+  @media screen and (max-width: 768px) {
+    width: 350px;
+    height: 350px;
+    right: 10px;
+    position: relative;
+  }
+
+  img {
+    transform: translateY(-70px);
+    width: 100%;
+    height: auto;
+    @media screen and (max-width: 768px) {
+      transform: translateY(-20px);
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 100px;
+  gap: 64px;
+  padding-top: 60px;
+  padding-bottom: 124px;
+  @media screen and (max-width: 768px) {
+    padding-inline: 30px;
+    padding-bottom: 80px;
+  }
+}
+.top {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  h1 {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+      text-align: center;
+    }
+  }
+}
+.bottomCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.leftImage {
+  border-radius: 24px;
+  background: #3d544d;
+  width: fit-content;
+  padding: 16px;
+  @media screen and (max-width: 768px) {
+    padding: 12px;
+  }
+}
+.bottomLeft {
+  width: 20%;
+}
+.bottomRight {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  h2 {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    @media screen {
+      font-size: 20px;
+    }
+  }
+  p {
+    color: #adb2b1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    @media screen {
+      font-size: 14px;
+    }
+  }
+}
+.bottom {
+  display: flex;
+  gap: 32px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}

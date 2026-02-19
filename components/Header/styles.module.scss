@@ -1,0 +1,118 @@
+.container {
+  background: transparent;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 100px;
+  align-items: center;
+  width: 100%;
+  padding-block: 20px;
+  @media screen and (max-width: 768px) {
+    padding-inline: 30px;
+    padding-block: 10px;
+  }
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  h4 {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  img {
+    @media screen and (max-width: 768px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+  h5 {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+}
+
+.rightside {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  button {
+    cursor: pointer;
+    border-radius: 64px;
+    background: transparent;
+    border: 2px solid #8336ff;
+    color: #8336ff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 25px;
+    padding-block: 12px;
+    gap: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: color 0.4s ease-in-out;
+    @media screen and (max-width: 768px) {
+      padding-inline: 16px;
+      padding-block: 6px;
+      font-size: 12px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: #d24715;
+      z-index: -1;
+      transition: width 0.4s ease-in-out;
+    }
+
+    &:hover::before {
+      width: 100%;
+    }
+
+    &:hover {
+      color: #fff;
+      border-color: #d24715;
+    }
+
+    & > * {
+      position: relative;
+      z-index: 1;
+    }
+  }
+}

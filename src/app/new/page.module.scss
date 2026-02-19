@@ -1,0 +1,84 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.radial-gradient {
+  position: absolute;
+  top: 100px;
+  right: 300px;
+  width: 1080px;
+  height: 1080px;
+  border-radius: 50%;
+  background: #8336ff;
+  filter: blur(500px);
+  z-index: 0;
+}
+
+.curved-line-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  overflow: visible;
+  z-index: 2;
+}
+
+.curved-line {
+  width: 100%;
+  height: 100%;
+}
+
+.star {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url("/3d.png") no-repeat center;
+  background-size: contain;
+  z-index: 2;
+}
+
+.main-content {
+  position: relative;
+  z-index: 10;
+}
+
+.radial-gradient-card-section {
+  position: absolute;
+  bottom: 50%;
+  right: 0px;
+  width: 1080px;
+  height: 1080px;
+  border-radius: 50%;
+  background: #8336ff;
+  filter: blur(300px);
+  z-index: -1;
+}
+
+.radial-gradient-questions {
+  position: absolute;
+  bottom: 20%; // Adjust based on where you want this gradient to appear
+  left: 50px;
+  width: 1080px;
+  height: 1080px;
+  border-radius: 50%;
+  background: #8336ff;
+  filter: blur(400px);
+  z-index: -1;
+}
+.radial-gradient-phone {
+  position: absolute;
+  bottom: 10%; // Adjust based on where you want this gradient to appear
+  right: 0px;
+  width: 1080px;
+  height: 1080px;
+  border-radius: 50%;
+  background: #8336ff;
+  filter: blur(400px);
+  z-index: -1;
+}

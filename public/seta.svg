@@ -1,0 +1,24 @@
+<svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="SETA" clip-path="url(#clip0_249_608)">
+<path id="Vector" d="M12.4998 25.4996C19.4033 25.4996 24.9996 19.9033 24.9996 12.9998C24.9996 6.09636 19.4033 0.5 12.4998 0.5C5.59636 0.5 0 6.09636 0 12.9998C0 19.9033 5.59636 25.4996 12.4998 25.4996Z" fill="url(#paint0_linear_249_608)"/>
+<path id="Vector_2" d="M10.7134 19.4281L9.32324 17.8754L14.7694 12.9998L9.32324 8.12417L10.7134 6.57141L16.1578 11.4452C17.0842 12.2745 17.0842 13.7247 16.1578 14.554L10.7134 19.4278V19.4281Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_249_608" x1="-2.7677" y1="24.0318" x2="38.7572" y2="-5.97189" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2C1290"/>
+<stop offset="0.02" stop-color="#311497"/>
+<stop offset="0.12" stop-color="#4F20BC"/>
+<stop offset="0.21" stop-color="#6629D9"/>
+<stop offset="0.31" stop-color="#7630EE"/>
+<stop offset="0.41" stop-color="#8034FA"/>
+<stop offset="0.5" stop-color="#8436FF"/>
+<stop offset="0.62" stop-color="#863AFF"/>
+<stop offset="0.75" stop-color="#8F46FF"/>
+<stop offset="0.87" stop-color="#9C5BFF"/>
+<stop offset="1" stop-color="#B078FF"/>
+</linearGradient>
+<clipPath id="clip0_249_608">
+<rect width="25" height="25" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>
