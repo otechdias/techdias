@@ -1,5 +1,5 @@
 .container {
-  background-color: #0c0a15;
+  background-color: #023c49;
 }
 
 .content {
@@ -8,8 +8,8 @@
   padding-inline: 100px;
   max-width: 1440px;
   margin: 0 auto;
-  padding-block: 40px;
-  align-items: flex-start;
+  
+  align-items: center;
   @media screen and (max-width: 768px) {
     padding-inline: 30px;
     flex-direction: column;

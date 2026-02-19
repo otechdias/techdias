@@ -8,19 +8,20 @@ export default function NewSection1() {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.header}>
-          <Image src="/logoTexto.svg" alt="Logo" width={200} height={50} />
+          
+          <img src="/logoTextNew.png" alt="Logo" width={200} height={150} />
         </div>
         <div className={styles.middle}>
           <div className={styles.leftside}>
-            <h5>Conheça a Inteligência em Negócios</h5>
+            <h5>Conheça a TechDias</h5>
             <div className={styles.h1}>
-              <h1>Sua Visão,</h1>
+              <h1>Landing Pages para</h1>
               <h1>
-                <span>Nossa Estratégia.</span>
+                <span>GERAR VENDAS  </span>
               </h1>
             </div>
             <p>
-              Otimização detalhada e projetada para superar suas expectativas.
+              Transforme visitantes em clientes com páginas que vendem por você.
             </p>
             <Link href="https://wa.link/0yw7lb">
               <button>ENTRE EM CONTATO</button>
@@ -31,7 +32,7 @@ export default function NewSection1() {
           </div>
         </div>
         <div className={styles.bottom}>
-          <h2>Um upgrade estratégico para suas campanhas.</h2>
+          <h2>Um upgrade estratégico para sua vida profissional.</h2>
         </div>
       </div>
     </div>

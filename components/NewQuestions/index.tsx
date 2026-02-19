@@ -3,60 +3,37 @@
 import { useEffect, useState } from "react";
 import styles from "./styles.module.scss";
 
+
 const accordionData = [
   {
-    question: "Como vocês criam estratégias de tráfego pago personalizadas?",
+    question: "O que é uma landing page?",
     answer:
-      "Desenvolvemos estratégias personalizadas iniciando com uma análise detalhada dos seus objetivos de marketing e do seu público-alvo. Com base nessas informações, criamos campanhas específicas que incluem seleção de plataformas, definição de orçamento e desenvolvimento de anúncios. Nossas estratégias são continuamente otimizadas para garantir que você obtenha o melhor retorno sobre o investimento.",
+      "É uma página criada com o objetivo de converter visitantes em leads ou clientes, focada em uma única ação como preencher um formulário, solicitar orçamento oucomprar um produto.",
   },
   {
-    question: "Quais plataformas de anúncios vocês gerenciam?",
+    question: "Por que eu preciso de uma landing page?",
     answer:
-      "Gerenciamos campanhas em plataformas líderes como Google Ads, Facebook Ads, Instagram Ads e LinkedIn Ads, entre outras. Escolhemos as plataformas mais eficazes para atingir seu público-alvo e maximizar o impacto das suas campanhas.",
+      "Landing pages aumentam significativamente as taxas de conversão, pois são projetadas para eliminar distrações e direcionar o usuário para uma ação específica.",
   },
   {
-    question: "Como vocês determinam o orçamento ideal para minhas campanhas?",
+    question: "Quanto tempo leva para criar uma landing page?",
     answer:
-      "Analisamos seus objetivos de marketing, o custo médio por clique no seu setor e o volume de tráfego desejado para definir um orçamento adequado. Trabalhamos com você para ajustar o orçamento e otimizar as campanhas de acordo com o desempenho e as necessidades.",
+      "O prazo varia conforme a complexidade do projeto, mas geralmente entre 5 e 10 dias úteis já é possível entregar uma página completa e funcional.",
   },
   {
-    question: "Como vocês medem o sucesso das campanhas?",
+    question: "Vocês oferecem manutenção após a entrega?",
     answer:
-      "Utilizamos métricas-chave como retorno sobre o investimento (ROI), custo por clique (CPC), custo por aquisição (CPA) e taxa de conversão para medir o sucesso das campanhas. Fornecemos relatórios detalhados e análises para acompanhar o desempenho e identificar oportunidades de melhoria.",
+      "Sim! Oferecemos planos de suporte e manutenção para garantir que sua landing page esteja sempre atualizada e otimizada.",
   },
   {
-    question:
-      "Com que frequência vocês fornecem relatórios sobre o desempenho das campanhas?",
+    question: "Posso integrar minha landing page com ferramentas externas?",
     answer:
-      "Oferecemos relatórios detalhados com a frequência que melhor se adapta às suas necessidades, podendo ser semanal, quinzenal ou mensal. Os relatórios incluem análises de desempenho, insights e recomendações para otimizar suas campanhas.",
+      " Claro! Fazemos integrações com CRM, WhatsApp, Google Analytics, e outras plataformas",
   },
   {
-    question:
-      "Vocês realizam testes A/B para melhorar os resultados das campanhas?",
+    question: "Minha landing page será responsiva?",
     answer:
-      "Sim, realizamos testes A/B para comparar diferentes versões de anúncios e páginas de destino. Isso nos permite identificar quais elementos geram melhores resultados e ajustar suas campanhas para maximizar a eficácia.",
-  },
-  {
-    question:
-      "Como vocês lidam com a concorrência nas campanhas de tráfego pago?",
-    answer:
-      "Monitoramos a concorrência e ajustamos suas campanhas para garantir que você se destaque. Analisamos estratégias de concorrentes, ajustamos lances e otimizamos os anúncios para garantir que você obtenha o melhor posicionamento possível.",
-  },
-  {
-    question: "Quando posso esperar ver resultados das campanhas?",
-    answer:
-      "Você pode começar a ver resultados iniciais em algumas semanas após o início das campanhas. A otimização contínua pode levar alguns meses para atingir o desempenho ideal, dependendo de vários fatores, como o setor e o orçamento.",
-  },
-  {
-    question: "Oferecem suporte contínuo e consultoria para minhas campanhas?",
-    answer:
-      "Sim, oferecemos suporte contínuo e consultoria. Nossa equipe está sempre disponível para responder a perguntas, fornecer orientação e ajustar campanhas conforme necessário para atender às suas necessidades.",
-  },
-  {
-    question:
-      " Como vocês garantem que as campanhas estão alinhadas com a minha marca?",
-    answer:
-      "Trabalhamos em estreita colaboração com você para entender sua marca, valores e objetivos. Nossas campanhas são projetadas para refletir sua identidade de marca e alinhadas com seus objetivos de marketing. Revisamos e ajustamos continuamente para garantir que sua marca esteja bem representada.",
+      "Sim, todas as páginas são desenvolvidas para se adaptar perfeitamente a qualquer dispositivo: desktop, tablet ou smartphone.",
   },
 ];
 
@@ -83,6 +60,7 @@ const NewQuestions = () => {
 
   return (
     <div className={styles.container}>
+      
       <div className={styles.content}>
         <div className={styles.title}>
           <h2>Perguntas Frequentes!</h2>
@@ -120,7 +98,7 @@ const NewQuestions = () => {
         </div>
         <div className={styles.button}>
           <button
-            onClick={() => window.open("https://wa.link/0yw7lb", "_blank")}
+            onClick={() => window.open("https://wa.link/tw5aec", "_blank")}
           >
             dúvidas? FALE COM A NOSSA EQUIPE
           </button>

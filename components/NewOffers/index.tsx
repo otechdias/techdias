@@ -43,8 +43,7 @@ export default function NewOffers() {
         <div className={styles.content}>
           <div className={styles.between}>
             <h4>
-              Desenhado para garantir um avanço que não apenas atende, mas
-              supere suas expectativas.
+              Design atrativo + estratégia digital = mais resultados.
             </h4>
           </div>
           <div className={styles.top}>
@@ -54,15 +53,14 @@ export default function NewOffers() {
             <div className={styles.bottomCard}>
               <div className={styles.bottomLeft}>
                 <div className={styles.leftImage}>
-                  <img src="icon5.svg" alt="" />
+                  <img src="icon5.svg" alt="Ícone" />
                 </div>
               </div>
               <div className={styles.bottomRight}>
-                <h2>Planejamento Estratégico</h2>
+                <h2>Consultoria Estratégica</h2>
                 <p>
-                  Desenvolvimento de uma estratégia de tráfego pago
-                  personalizada com base nos objetivos de negócios do cliente,
-                  público-alvo e análise da concorrência.
+                  Orientação personalizada para definir objetivos claros e estratégias
+                  eficazes de captação de leads e aumento de conversões.
                 </p>
               </div>
             </div>
@@ -73,11 +71,10 @@ export default function NewOffers() {
                 </div>
               </div>
               <div className={styles.bottomRight}>
-                <h2>Estratégias de Publicidade de Influenciadores</h2>
+                <h2>Copywriting Persuasivo</h2>
                 <p>
-                  Coordenação de campanhas pagas em colaboração com
-                  influenciadores para aumentar o alcance e a credibilidade da
-                  marca.
+                  Criação de textos envolventes e direcionados para despertar interesse,
+                  transmitir credibilidade e incentivar a ação do visitante.
                 </p>
               </div>
             </div>
@@ -88,10 +85,10 @@ export default function NewOffers() {
                 </div>
               </div>
               <div className={styles.bottomRight}>
-                <h2>Consultoria em Branding e Posicionamento</h2>
+                <h2>Design Focado em Conversão</h2>
                 <p>
-                  Orientação sobre como alinhar campanhas de tráfego pago com a
-                  estratégia geral de branding e posicionamento da marca.
+                  Estrutura visual pensada para guiar o usuário até a ação desejada,
+                  utilizando elementos de UX e UI modernos.
                 </p>
               </div>
             </div>
@@ -119,11 +116,10 @@ export default function NewOffers() {
                 </div>
               </div>
               <div className={styles.bottomRight}>
-                <h2>Gerenciamento de Orçamento</h2>
+                <h2>Integração com Analytics</h2>
                 <p>
-                  Alocação e ajuste de orçamento para diferentes campanhas e
-                  plataformas para garantir a máxima eficiência e retorno sobre
-                  o investimento.
+                  Configuração de ferramentas como Google Analytics
+                  para acompanhar métricas e otimizar campanhas.
                 </p>
               </div>
             </div>
@@ -135,20 +131,19 @@ export default function NewOffers() {
                 </div>
               </div>
               <div className={styles.bottomRight}>
-                <h2>Estratégias de Publicidade Local</h2>
+                <h2>Suporte e Manutenção</h2>
                 <p>
-                  Implementação de campanhas focadas em áreas geográficas
-                  específicas, incluindo otimização para buscas locais e
-                  anúncios direcionados para negócios com localização física.
+                  Acompanhamento contínuo para ajustes, melhorias e suporte técnico,
+                  garantindo que sua landing page esteja sempre atualizada.
                 </p>
               </div>
             </div>
           </div>
           <div className={styles.button}>
             <button
-              onClick={() => window.open("https://wa.link/0yw7lb", "_blank")}
+              onClick={() => window.open("https://wa.link/tw5aec", "_blank")}
             >
-              invista em gestão de tráfego <img src="/arrow2.svg" />
+              invista em gestão de tráfego 
             </button>
           </div>
         </div>

@@ -8,7 +8,7 @@ export default function NewFooter() {
     <footer className={styles.container}>
       <div className={styles.content}>
         <div className={styles.leftside}>
-          <img src="/logoTextNew.png" />
+          <img src="/logoTextNew.png" alt="Logo"/>
         </div>
         <div className={styles.middle}>
           <p>Copyright 2026 © All Rights Reserved</p>

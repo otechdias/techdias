@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  background-color: #141433;
+  background-color: #03738C;
 
   .backgroundImage {
     position: absolute;
@@ -47,7 +47,7 @@
   display: flex;
   flex-direction: column;
   h2 {
-    color: #b078ff;
+    color: #0FC92E;
     font-size: 44px;
     font-style: normal;
     font-weight: 200;
@@ -91,7 +91,7 @@
       align-items: center;
       gap: 15px;
       border-radius: 10px;
-      background: #141433;
+      background: linear-gradient(90deg,rgba(11, 102, 26, 1) 0%, rgba(11, 140, 33, 1) 50%, rgba(9, 179, 40, 1) 84%, rgba(15, 201, 46, 1) 100%);
       padding-block: 16px;
       padding-inline: 25px;
       border: none;
@@ -124,7 +124,7 @@
     }
 
     p {
-      color: #8436ff;
+      color: #0FC92E;
       font-size: 14px;
       font-style: normal;
       font-weight: 600;

@@ -91,7 +91,7 @@ export default function NewForm() {
               ref={rowsRef}
             >
               <div className={styles.row}>
-                <p>Fase 01</p> <hr /> <h5>Análise e Diagnóstico</h5>
+                <p>Fase 01</p> <hr /> <h5>Call e Análise de Estilos de Sites</h5>
                 <Image src="/check.svg" alt="arrow" width={20} height={20} />
               </div>
               <div className={styles.row}>
@@ -109,7 +109,7 @@ export default function NewForm() {
               <div className={styles.button}>
                 <button onClick={handleButtonClick}>
                   Faça um orçamento agora mesmo
-                  <Image src="/seta.svg" alt="arrow" width={20} height={20} />
+                  
                 </button>
               </div>
             </div>

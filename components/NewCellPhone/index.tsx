@@ -18,7 +18,7 @@ const NewCellphone = () => {
           </h5>
           <div className={styles.logo}>
             <button
-              onClick={() => window.open("https://wa.link/0yw7lb", "_blank")}
+              onClick={() => window.open("https://wa.link/tw5aec", "_blank")}
             >
               Quero iniciar uma parceria <img src="/arrow2.svg" />
             </button>
@@ -26,7 +26,10 @@ const NewCellphone = () => {
         </div>
         <div className={styles.rightside}>
           <Image src="/phone.png" alt="phones" width={600} height={600} />
+          <img src="/mockup-test.png" alt="phones" width={600} height={600} />
+          
         </div>
+        
       </div>
     </div>
   );

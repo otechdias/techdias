@@ -2,7 +2,7 @@
 
 .container {
   width: 100%;
-  background: #141433;
+  background: #03738C;
 }
 .content {
   display: flex;
@@ -28,7 +28,7 @@
   margin-inline: 100px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  background: #8436ff;
+  background: #032F40;
   padding-bottom: 50px;
   padding-top: 20px;
   width: 100%;
@@ -39,7 +39,7 @@
   }
 
   h4 {
-    color: #141433;
+    color: white;
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -58,10 +58,10 @@
   display: flex;
 
   h1 {
-    color: #fff;
+    color: #0fc92e;
     font-size: 38px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
 
     text-decoration-line: underline;
     @media screen and (max-width: 768px) {
@@ -127,13 +127,13 @@
     align-items: center;
     gap: 5px;
     border-radius: 50px;
-    background: linear-gradient(90deg, #ed7f26 0%, #ffa400 100%);
+    background: linear-gradient(90deg,rgba(11, 102, 26, 1) 0%, rgba(11, 140, 33, 1) 50%, rgba(9, 179, 40, 1) 84%, rgba(9, 181, 38, 1) 93%, rgba(15, 201, 46, 1) 100%);
     padding-block: 18px;
     padding-inline: 32px;
     border: none;
     cursor: pointer;
 
-    color: #141433;
+    color: #ffffff;
     font-size: 14px;
     font-family: "Sora", sans-serif;
     font-style: normal;
